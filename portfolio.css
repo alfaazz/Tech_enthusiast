@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #d0b8da;
+}
+.rows{
+    display: block;
+    flex-direction: column;
+
+}
+#row1-card{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 5px;justify-content: center;
+}
+#row1-card img{
+   
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+    max-width: 460px;
+
+}
+
+#row2-card{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 5px;justify-content: center;
+}
+#row2-card img{
+
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+    max-width: 460px;
+
+}
+#row3-card{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: center;justify-content: center;
+}
+#row3-card img{
+   
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+    max-width: 460px;
+
+}
+#row4-card{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 5px;justify-content: center;
+}
+#row4-card img{
+   
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+    max-width: 460px;
+
+}
+#row4-card{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 5px;justify-content: center;
+}
+#row5-card img{
+   
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+    max-width: 460px;
+
+}
+#row5-card{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 5px;justify-content: center;
+}
+#row5-card img{
+   
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+    max-width: 460px;
+
+}
+#row6-card{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: center;
+}
+#row6-card img{
+   
+    
+   
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+    max-width: 720px;
+
+}
+#row7-card{
+   
+    display: flex;
+    flex-direction: row;
+    margin: 5px;justify-content: center;
+}
+#row7-card img{
+   
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+    margin-bottom: 200px;
+    max-height: 500px;
+    max-width: 800px;
+    justify-content: center;
+}
+
+
+
+
+#row1-card  h2{
+    display: inline-block;
+   top: 0px;
+    font-size: 30px;
+    
+}
+
+.Headings {
+    color: rgb(197, 20, 197);
+    text-align:center;
+   
+    margin-top: 20px;   
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+}
+
+.rows img:hover{
+    
+    border: 4px solid rgb(197, 20, 197);
+
+}
+
+
+
+

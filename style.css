@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat' sans-serif;
+}
+body{
+    background:#d0b8da;
+    margin: 0%;
+    padding: 0%;
+    
+}
+nav .navbar{
+    display: inline-block;
+    width: auto;
+}
+nav .navbar li{
+    display: inline-block;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    ;
+   
+}
+.left{
+    display: inline-block;
+    top: 0px;
+    position: absolute;
+    left: 34px;
+   
+}
+.contact{
+    display: inline-block;
+    bottom: 20px;
+    position: absolute;
+    right: 5px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.text1{
+    position: absolute;
+    display: inline-block;
+    top: 270px;
+    left: 450px;
+}
+.text2{
+    position: absolute;
+    display: inline-block;
+    top: 350px;
+    left: 450px;
+}
+
+.contact a img{
+    width: 125px;
+}
+
+nav .navbar li a{
+    color: #000000;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 30px;
+    
+
+}
+nav .navbar li a:hover{
+    color: #4a5157 ;
+}
+.left img{
+    margin-top: 10px;
+    width: 115px;
+    margin-left: 9px;
+}
+.left2 img{
+    background: transparent;
+    width: 200px;
+    margin-left: 3px;}
+
+.middle img{
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 290px;
+    border: #cf0707;
+    border-width: 10px;
+    border-radius: 50px;
+    opacity: 90%;
+    
+}
+.text1 a{
+    font-size: 42px;
+    color: #cf0707;
+}
+.text21 {
+    font-size: 32px;
+    color: #cf0707;}
+.text21 {
+    font-size: 32px;
+    color: #cf0707;}
+.text2 a {
+    font-size: 32px;
+
+    color: #cf0707;}
+    
+.text2 p {
+    font-size: 32px;
+    font-style: normal;
+}
+
+.btn1 a{
+    color: #cf0707;
+
+    text-decoration: none;
+}
+.btn1 {
+    width: 180px;
+    height: 50px;
+    background: none;
+    border: 4px solid;
+    color: #cf0707;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+
+}
+.btn1::before, .btn1::after{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #d0b8da;
+    transform: skewX(50deg);
+    transition: .4s linear;
+}
+.btn1::before{
+    top: -4px;
+    left: 10%;
+}
+.btn1::after{
+    bottom: -4px;
+    right: 10%;
+}
+.btn1:hover::before{left: 80%;}
+.btn1:hover::after{right: 80%;}
